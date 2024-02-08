@@ -1,0 +1,150 @@
+body {
+  background-color: #fef6e4 !important;
+}
+
+.navbar {
+  background-color: #fef6e4;
+  display: flex;
+  justify-content: space-evenly;
+  height: 4rem;
+}
+
+.navbar-brand {
+  font-weight: 600;
+}
+
+.nav-link {
+  color: #222222 !important;
+  font-weight: 500 !important;
+}
+
+.collapse {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bag-icon {
+  font-size: 1.5rem;
+}
+
+.card-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 3rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.product-card {
+  margin: 2rem;
+  min-height: 42rem;
+  background-color: #f3d2c1 !important;
+  position: relative;
+}
+
+.cart-card {
+  background-color: #f3d2c1 !important;
+  min-height: 20rem !important;
+  margin: 3rem;
+}
+
+.about-card {
+  background-color: #f3d2c1 !important;
+  margin: 3rem;
+}
+
+.cost {
+  position: absolute;
+  bottom: 3.5rem;
+  color: #001858;
+}
+
+.card-title {
+  color: #001858 !important;
+}
+
+.card-text {
+  color: #172c66;
+}
+
+.cart-btn-div {
+  display: flex;
+  position: absolute;
+  bottom: 1rem;
+}
+
+.cart-btn {
+  background-color: #f582ae !important;
+  border: none !important;
+  color: #001858 !important;
+}
+
+.cart-btn:hover {
+  filter: drop-shadow(0.1rem 0.1rem 0.001rem #001858) !important;
+}
+
+.watch-img {
+  filter: drop-shadow(0.1rem 0.11rem 0.5rem black);
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  margin: 1.5rem;
+}
+
+.item-price-del-btn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cart-item-name,
+.cart-item-price {
+  color: #172c66;
+}
+
+.about-card-body {
+  height: 10rem;
+}
+
+.about {
+  color: #172c66;
+}
+
+.f-info-links,
+.f-info-socials,
+.f-info-brand {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.f-info-socials i {
+  font-size: 1.2rem;
+  margin-right: 1rem;
+}
+
+.f-info {
+  text-align: center;
+  display: flex;
+  height: 8rem;
+  background-color: #8bd3dd;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: space-evenly;
+}
+
+.f-info-links a {
+  text-decoration: none;
+  color: #222222 !important;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.f-info-links a:hover {
+  text-decoration: underline;
+}
